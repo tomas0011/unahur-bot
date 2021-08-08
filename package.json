@@ -1,0 +1,27 @@
+{
+  "name": "unahur-bot",
+  "version": "1.0.0",
+  "description": "unahur-bot",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node src/app.js",
+    "devm": "nodemon node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomas0011/unahur-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomas0011/unahur-bot/issues"
+  },
+  "homepage": "https://github.com/tomas0011/unahur-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
